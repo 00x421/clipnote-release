@@ -1,11 +1,11 @@
 {
-  "version": "0.1.10",
-  "notes": "v0.1.10 修复更新通道：迁移到 GitHub Pages endpoint",
-  "pub_date": "2026-06-16T16:41:52.627Z",
+  "version": "0.1.11",
+  "notes": "v0.1.11 新增多文件复制、CI 流水线、WebDAV 性能优化与隐私检测加固",
+  "pub_date": "2026-06-24T13:03:52.012Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaXpjVERJdXUvMFp2c0orM0RWTWFOOGF3OTZnamZHYzFRU1RXbTcwSHo3eUxYaHBQZ0dWVGU2Y2ZPY2ZpRzJRaWhBTUtvRmYwZlY0SGMxYVlQd0FlZ0l2dzlMa29Dc1FBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgxNjI4MDcxCWZpbGU6Q2xpcE5vdGVfMC4xLjEwX3g2NC1zZXR1cC5leGUKMWczd2pTeElSeGVSVzVWYXpvNXdNOThYMnhwTGN5U0Fka2p1bm5wNFFqc1czK1JSOG0wY3gzS3JGdmIzbGdid0xSMVp6RnQzOHpmdXVjeUh0ZzZIQ2c9PQo=",
-      "url": "https://00x421.github.io/clipnote-release/ClipNote_0.1.10_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaXpjVERJdXUvMGJuNDRwT0ZnakNWRUxCeDNGdGlYQkxnL0hjR0FpUmV0SWJOckxuV1R6a3cyRDBLaXhhdVR2YXVPZnAzNklmbFRNYWpldjRtaGJOdHVFdzVKN0xOcVFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyMzA2MTkwCWZpbGU6Q2xpcE5vdGVfMC4xLjExX3g2NC1zZXR1cC5leGUKS3VBczMweXQreTlRQzVnQWtCYkhMbkNmVXdCbnRiWmNuMkREdjFTSHo2M1BNQUZsTWZuUGsvcTQ3QWN1NURBU1JHMDRFUmxRczV2Mk1RejJveWtMQkE9PQo=",
+      "url": "https://00x421.github.io/clipnote-release/ClipNote_0.1.11_x64-setup.exe"
     }
   }
 }
