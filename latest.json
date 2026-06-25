@@ -1,11 +1,11 @@
 {
-  "version": "0.1.11",
-  "notes": "v0.1.11 新增多文件复制、CI 流水线、WebDAV 性能优化与隐私检测加固",
-  "pub_date": "2026-06-24T13:03:52.012Z",
+  "version": "0.1.12",
+  "notes": "v0.1.12 数据安全重建 - 修复 v0.1.11 在某些场景下可能导致剪贴板历史丢失的问题。主要改动：1) retention_days 默认改为 0（永不自动清理）；2) 同步下载遇到缺失 op 不再中断整轮同步；3) 自动清理前创建本地快照（保留最近 5 份）；4) 设置页新增本地快照恢复入口；5) 同步状态卡片显示未同步天数、待上传积压、失败计数；6) 后台记录上传失败 seq 用于后续重试。所有 v0.1.11 用户应尽快升级。",
+  "pub_date": "2026-06-25T15:08:55.543Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaXpjVERJdXUvMGJuNDRwT0ZnakNWRUxCeDNGdGlYQkxnL0hjR0FpUmV0SWJOckxuV1R6a3cyRDBLaXhhdVR2YXVPZnAzNklmbFRNYWpldjRtaGJOdHVFdzVKN0xOcVFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyMzA2MTkwCWZpbGU6Q2xpcE5vdGVfMC4xLjExX3g2NC1zZXR1cC5leGUKS3VBczMweXQreTlRQzVnQWtCYkhMbkNmVXdCbnRiWmNuMkREdjFTSHo2M1BNQUZsTWZuUGsvcTQ3QWN1NURBU1JHMDRFUmxRczV2Mk1RejJveWtMQkE9PQo=",
-      "url": "https://00x421.github.io/clipnote-release/ClipNote_0.1.11_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaXpjVERJdXUvMFVEbGVud1FSY2tCUTFFemRZNEpqT2pEMGFlci8yK0pQZktqYzFsYjRYTVo1eGIxTjVHVTU2bnpENXhhMFNQa09DKyttNS9oZmI0Z1VkMmhwN1RGZXdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyNDAwMTM0CWZpbGU6Q2xpcE5vdGVfMC4xLjEyX3g2NC1zZXR1cC5leGUKSGtEYVJaUlF0WklQdU50SStZaTFpUHpzY0VHam1nZWxtWFZtQUp3Qm9JZW5ROWxuME1UdUFHRDRGMnNlK2JEOXZRRVhYVmRlT2EycGJXMktJTjdUQUE9PQo=",
+      "url": "https://00x421.github.io/clipnote-release/ClipNote_0.1.12_x64-setup.exe"
     }
   }
 }
