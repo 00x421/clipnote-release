@@ -1,11 +1,11 @@
 {
-  "version": "0.1.12",
-  "notes": "v0.1.12 数据安全重建 - 修复 v0.1.11 在某些场景下可能导致剪贴板历史丢失的问题。主要改动：1) retention_days 默认改为 0（永不自动清理）；2) 同步下载遇到缺失 op 不再中断整轮同步；3) 自动清理前创建本地快照（保留最近 5 份）；4) 设置页新增本地快照恢复入口；5) 同步状态卡片显示未同步天数、待上传积压、失败计数；6) 后台记录上传失败 seq 用于后续重试。所有 v0.1.11 用户应尽快升级。",
-  "pub_date": "2026-06-25T15:08:55.543Z",
+  "version": "0.1.13",
+  "notes": "v0.1.13 靠贴模式修复与面板增强：修复顶部靠贴面板闪烁、从托盘/全局快捷键唤出时的透明蒙版、退出靠贴后窗口尺寸错误（现在回到启动默认 520x440）；移除底部靠贴（与任务栏冲突，难触发），只保留右侧与顶部；面板搜索改为全库 FTS，支持 Alt+1~9 快捷粘贴置顶项，顶部面板新增置顶分组；图片卡改用固定缩略图并可展开查看完整图片，长链接标题自动换行；提高贴靠面板背景不透明度、优化文字层级。",
+  "pub_date": "2026-11-12T15:24:35.702Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaXpjVERJdXUvMFVEbGVud1FSY2tCUTFFemRZNEpqT2pEMGFlci8yK0pQZktqYzFsYjRYTVo1eGIxTjVHVTU2bnpENXhhMFNQa09DKyttNS9oZmI0Z1VkMmhwN1RGZXdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyNDAwMTM0CWZpbGU6Q2xpcE5vdGVfMC4xLjEyX3g2NC1zZXR1cC5leGUKSGtEYVJaUlF0WklQdU50SStZaTFpUHpzY0VHam1nZWxtWFZtQUp3Qm9JZW5ROWxuME1UdUFHRDRGMnNlK2JEOXZRRVhYVmRlT2EycGJXMktJTjdUQUE9PQo=",
-      "url": "https://00x421.github.io/clipnote-release/ClipNote_0.1.12_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSaXpjVERJdXUvMFN3WFdqa29ETENjekpIOXYxd1orZUdIdGxpeUNFV0piUk14ZmovYUdtU3J3ODh3SkVnaGRaampPa2pPVHRqelYwQkVGcnpPVFMydld6dnJzWlpPcWdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDk3MDUyCWZpbGU6Q2xpcE5vdGVfMC4xLjEzX3g2NC1zZXR1cC5leGUKRW9kSXVleVpLdzdKUmNYWnV0a0pMZmZyNzNRNXRTdWhOZXpzcXFNN2xMZDBDYjFabmRtemdGaFE0UWxOUmRhVjQwaTU5ako0eDltZ0JPU1hwZDVzQUE9PQo=",
+      "url": "https://00x421.github.io/clipnote-release/ClipNote_0.1.13_x64-setup.exe"
     }
   }
 }
